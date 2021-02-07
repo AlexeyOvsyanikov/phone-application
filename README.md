@@ -1,5 +1,7 @@
 # phone-application
-To install:
+This is a simple SPA application written in pure js + webpack
+
+# Install
 1) git clone
 2) open project
 3) npm install
