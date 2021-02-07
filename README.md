@@ -4,4 +4,4 @@ To install:
 2) open project
 3) npm install
 4) npm start
-5) open index.html
+5) open http://localhost:9000
