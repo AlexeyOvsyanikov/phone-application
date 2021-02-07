@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-    mode: "production",
+    mode: "development",
     entry: './frontend/app.js',
     output: {
         filename: 'index.js',
@@ -18,5 +18,10 @@ module.exports = {
                 }
         ]
     },
-    watch: true
+    watch: true,
+    devServer: {
+        contentBase: path.join(__dirname, '.'),
+        compress: true,
+        port: 9000,
+    },
 };
