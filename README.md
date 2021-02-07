@@ -1,5 +1,5 @@
 # phone-application
-This is a simple SPA application written in pure js + webpack
+This is a simple SPA application (phone shop) written in pure js + webpack
 
 # Install
 1) git clone
